@@ -13,6 +13,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+import library_template
 
 
 # -- Project information -----------------------------------------------------
@@ -22,7 +23,7 @@ copyright = '2019, natsukium'
 author = 'natsukium'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1.0'
+release = library_template.__version__
 
 
 # -- General configuration ---------------------------------------------------
