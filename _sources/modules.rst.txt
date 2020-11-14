@@ -1,0 +1,7 @@
+pure-python-library-template
+============================
+
+.. toctree::
+   :maxdepth: 4
+
+   library_template

@@ -1,0 +1,10 @@
+library\_template package
+=========================
+
+Module contents
+---------------
+
+.. automodule:: library_template
+   :members:
+   :undoc-members:
+   :show-inheritance:
