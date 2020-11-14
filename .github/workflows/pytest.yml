@@ -36,7 +36,5 @@ jobs:
 
     - name: Run tests
       run: |
-        poetry run pytest -v --cov=library_template/ --cov-report=
-        poetry run flake8
-        poetry run mypy ./library_template
+        make test
         poetry run codecov
