@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "library_template"
-version = "0.3.0"
+version = "0.3.1"
 description = "Library template for Python"
 authors = ["natsukium <tomoya.otabi@gmail.com>"]
 license = "MIT"
