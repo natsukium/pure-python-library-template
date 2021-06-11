@@ -14,4 +14,4 @@ $(DOCS): $(SRC) $(DOCSRC)/conf.py $(DOCSRC)/*.rst
 test:
 	poetry run pytest -v --cov=library_template/ --cov-report=
 	poetry run flake8
-	poetry run mypy ./library_template
+	yarn run pyright
