@@ -13,5 +13,6 @@ $(DOCS): $(SRC) $(DOCSRC)/conf.py $(DOCSRC)/*.rst
 
 test:
 	poetry run pytest -v --cov=library_template/ --cov-report=
+	poetry run isort library_template/ --check
 	poetry run flake8
 	yarn run pyright
